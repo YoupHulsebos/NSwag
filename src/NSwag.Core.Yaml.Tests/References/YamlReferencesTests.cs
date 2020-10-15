@@ -15,6 +15,7 @@ namespace NSwag.Core.Yaml.Tests.References
         [InlineData("/References/YamlReferencesTest/yaml_contract_with_json_reference.yaml")]
         [InlineData("/References/YamlReferencesTest/yaml_contract_with_yaml_reference.yaml")]
         [InlineData("/References/YamlReferencesTest/json_contract_with_yaml_reference.json")]
+        [InlineData("/References/YamlReferencesTest/yaml_contract_path_reference.yaml")]
         public async Task When_yaml_schema_has_references_it_works(string relativePath)
         {
             //// Arrange

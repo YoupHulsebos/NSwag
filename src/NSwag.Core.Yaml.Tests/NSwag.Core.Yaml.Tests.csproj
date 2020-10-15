@@ -4,6 +4,10 @@
     <IsPackable>false</IsPackable>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="References\YamlReferencesTest\path.yaml" />
+    <None Remove="References\YamlReferencesTest\yaml_contract_path_reference.yaml" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
     <PackageReference Include="xunit" Version="2.3.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
@@ -12,9 +16,6 @@
   <ItemGroup>
     <ProjectReference Include="..\NSwag.Core.Yaml\NSwag.Core.Yaml.csproj" />
     <ProjectReference Include="..\NSwag.Core\NSwag.Core.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="References\YamlReferencesTest" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="References\YamlReferencesTest\baseContract.json">
@@ -27,6 +28,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="References\YamlReferencesTest\json_contract_with_json_reference.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="References\YamlReferencesTest\path.yaml">
+      <CopyToOutputDirectory>Content</CopyToOutputDirectory>
+    </Content>
+    <Content Include="References\YamlReferencesTest\yaml_contract_path_reference.yaml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="References\YamlReferencesTest\yaml_contract_with_json_reference.yaml">
