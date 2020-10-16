@@ -3,9 +3,6 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
-	<ItemGroup>
-		<Folder Include="References\YamlReferencesTest" />
-	</ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
     <PackageReference Include="xunit" Version="2.3.1" />
@@ -15,6 +12,9 @@
   <ItemGroup>
     <ProjectReference Include="..\NSwag.Core.Yaml\NSwag.Core.Yaml.csproj" />
     <ProjectReference Include="..\NSwag.Core\NSwag.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+	<Folder Include="References\YamlReferencesTest" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="References\YamlReferencesTest\baseContract.json">
