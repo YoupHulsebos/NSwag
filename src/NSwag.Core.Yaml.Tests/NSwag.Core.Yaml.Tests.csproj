@@ -14,7 +14,7 @@
     <ProjectReference Include="..\NSwag.Core\NSwag.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
-	<Folder Include="References\YamlReferencesTest" />
+	  <Folder Include="References\YamlReferencesTest" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="References\YamlReferencesTest\baseContract.json">
