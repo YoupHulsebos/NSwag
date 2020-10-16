@@ -4,4 +4,4 @@ info:
   version: '1.0'
 paths:
   /bar:
-    $ref: './path.yaml'
+    $ref: './path.yaml#/barOperation'

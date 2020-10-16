@@ -31,7 +31,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="References\YamlReferencesTest\path.yaml">
-      <CopyToOutputDirectory>Content</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="References\YamlReferencesTest\yaml_contract_path_reference.yaml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
